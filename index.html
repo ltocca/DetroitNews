@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="" lang="en-US">
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" href="images/icon.webp">
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <meta name="theme-color" content="#A90B1A"/>
+    <title>Detroit Local News - Michigan News - Breaking News - detroitnews.com</title>
+    <meta property="og:title" content="Detroit Local News - Michigan News - Breaking News - detroitnews.com"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#hamburger").on("click", function() {
+                $("#hiddenMenu").toggleClass("side-menu")
+                $("#page").toggleClass("toBlur")
+                $("#overlay").toggleClass("grayOverlay")
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#cross").on("click", function() {
+                $("#hiddenMenu").toggleClass("side-menu")
+                $("#page").toggleClass("toBlur")
+                $("#overlay").toggleClass("grayOverlay")
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="hiddenMenu" class="colMenu">
+        <div class="nav">
+            <a class="logo" href="#"><img src="images/logo.svg" alt="Logo"></a>
+            <a href="#" id="cross">
+                <img class="expand-icon"src="images/cross.svg"/>
+            </a>
+        </div>
+        <div class="listMenu">
+            <ul id="column">
+                <li><a class="itemBar" href="#">Home</a></li>
+                <li><a class="itemBar" href="#">News</a></li>
+                <li><a class="itemBar" href="#">Sports</a></li>
+                <li><a class="itemBar" href="#">Business</a></li>
+                <li><a class="itemBar" href="#">Autos</a></li>
+                <li><a class="itemBar" href="#">Life + Home</a></li>
+                <li><a class="itemBar" href="#">Entertainment</a></li>
+                <li><a class="itemBar" href="#">Opinion</a></li>
+                <li><a class="itemBar" href="#">Obituaries</a></li>
+                <li><a class="itemBar" href="#">Weather</a></li>
+                <li><a class="itemBar" href="#">Advertise</a></li>
+                <li><a class="itemBar" href="#">Scores</a></li>
+                <li><a class="itemBar" href="#">E-Edition</a></li>
+                <li><a class="itemBar" href="#">Crosswords</a></li>
+                <li><a class="itemBar" href="#">Newsletters</a></li>
+                <li><a class="itemBar" href="#">Podcasts</a></li>
+            </ul> 
+        </div>
+        <div class="sideStories">
+            <h4>MOST RECENT STORIES</h4>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h4>Argument</h4>
+                        <p class="times">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Argument</h4>
+                        <p class="times">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <div id="page">
+        <nav>
+            <div class="navContainer">
+                <div id="toggle-sticky">
+                    <div id="icon-menu">
+                        <img id="hamburger" class="expand-icon" src="images/hamburger.svg"/>
+                    </div>
+                    <a id="logoContainer" class="icon-container" href="#">
+                        <img id="logo" class="expand-icon" src="images/logo.svg"/>
+                    </a>
+                </div>
+                <ul id="ribbon">
+                    
+                <li><a class="mobileHidden" href="#">News</a></li>
+                <li><a class="mobileHidden" href="#">Sports</a></li>
+                <li><a class="mobileHidden" href="#">Business</a></li>
+                <li><a class="mobileHidden" href="#">Autos</a></li>
+                <li><a class="mobileHidden" href="#">Life + Home</a></li>
+                <li><a class="mobileHidden" href="#">Entertainment</a></li>
+                <li><a class="mobileHidden" href="#">Opinion</a></li>
+                <li><a class="mobileHidden" href="#">Obituaries</a></li>
+                <li><a class="mobileHidden" href="#">Weather</a></li>
+                <li><a class="mobileHidden" href="#">Advertise</a></li>
+                <li><a class="mobileHidden" href="#">Scores</a></li>
+                <li><a class="mobileHidden" href="#">E-Edition</a></li>
+                <li><a class="mobileHidden" href="#">Crosswords</a></li>
+                <li><a class="mobileHidden" href="#">Newsletters</a></li>
+                <li><a class="mobileHidden" href="#">Podcasts</a></li>
+                </ul> 
+                <ul class="subMenu">
+                    <li>
+                        <a href="#" id="underline">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="mainContent">
+            <header class="header">
+                <div class="container">
+                    <div id="mosaicLeft">
+                        <a href="#">
+                            <img class="responsiveImage" src="https://placekitten.com/800/520" alt="image"/>
+                            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Exercitationem libero qui officia blanditiis maiores, voluptas facere?</p>
+                    </div>
+                    <div id="mosaicCenter">
+                        <a href="#">
+                            <img class="responsiveImage" src="https://placekitten.com/500/300" alt="image"/>
+                            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </a>
+                        <a href="#">
+                            <img class="responsiveImage" src="https://placekitten.com/500/300" alt="image"/>
+                            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                        </a>
+                    </div>
+                    <div id="moreStories" class="mobileHidden">
+                        <a href="#">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Argument<span>| 11 hours ago</span></p>
+                        </a>
+                        <a href="#">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Argument<span>| 11 hours ago</span></p>
+                        </a>
+                        <a href="#">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Argument<span>| 11 hours ago</span></p>
+                        </a>
+                        <a href="#">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Argument<span>| 11 hours ago</span></p>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="leftSide mobileHidden">
+                    <h2>More Stories</h2>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="responsiveImage" src="https://placekitten.com/90/90" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="responsiveImage" src="https://placekitten.com/90/90" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="responsiveImage" src="https://placekitten.com/90/90" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="responsiveImage" src="https://placekitten.com/90/90" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="responsiveImage" src="https://placekitten.com/90/90" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="responsiveImage" src="https://placekitten.com/90/90" alt="image">
+                        </a>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span>| 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                    <div class="article padding">
+                        <a href="#">
+                            <div>
+                                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Argument<span> | 11 hours ago</span></p>
+                            </div>
+                            <img class="padding" src="https://placekitten.com/187/105" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <ul class="footerList">
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#" id="cookies">Manage Cookies</a></li>
+                </ul>
+                <ul class="socialNetwork">
+                    <a href="#" alt="social"><img src="images/facebook.svg"></a>
+                    <a href="#" alt="social"><img src="images/twitter.svg"></a>
+                    <a href="#" alt="social"><img src="images/instagram.svg"></a>
+                    <a href="#" alt="social"><img src="images/pinterest.svg"></a>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
